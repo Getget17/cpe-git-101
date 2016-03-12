@@ -1,5 +1,6 @@
 function add(x,y)
 	{
+	if(isNaN (x)) return console.log('Input the number');
 	return x + y;
 	}
 
