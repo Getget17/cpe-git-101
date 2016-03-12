@@ -8,3 +8,9 @@ function sub(x, y)
 	{
 	return x - y;
 	}
+
+function mul(x,y)
+	{
+	if(isNaN (x)) return console.log('Input the number');
+	return x * y;
+	}
